@@ -29,7 +29,7 @@ Let's break this down a bit:
 
 # code
 ```
-[a-zA-z]\w+\@[a-z]+\.[a-z]
+\w+[\.+]?\w+@[\.+]?\w+.\w+
 
 ```
 
