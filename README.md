@@ -29,7 +29,15 @@ Let's break this down a bit:
 
 # code
 ```
-\w+[\.+]?\w+@[\.+]?\w+.\w+
+[a-z0-9][-a-z0-9+.]*[a-z0-9]@[a-z0-9][-a-z0-9+.?]*[a-z0-9].\w+
 
 ```
 
+[Online Test](https://regex101.com/)
+
+##email Test
+
+
+> us3r1@foundersandcoders.com
+us.3r1@foundersandcoders.com
+us._3r1@founder?sandcod-ers.com
